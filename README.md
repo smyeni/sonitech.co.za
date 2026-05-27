@@ -1,2 +1,2 @@
 # sonitech.co.za
-Home of Sonitech (Pty) Ltd
+Welcome to the home of Sonitech (Pty) Ltd, your trusty ICT business partner.
