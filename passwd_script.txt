@@ -1,0 +1,13 @@
+  <script>
+    var password = prompt("Enter password:");
+    if (password === "sonicadvantage") {
+      document.addEventListener("DOMContentLoaded", function() {
+        document.body.style.display = "block";
+      });
+    } else {
+      document.addEventListener("DOMContentLoaded", function() {
+        document.body.innerHTML = "<h2>Access Denied</h2>";
+        document.body.style.display = "block";
+      });
+    }
+  </script>   
