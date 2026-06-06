@@ -1,4 +1,5 @@
-  <script>
+<style>body { display: none; }</style>
+<script>
     var password = prompt("Enter password:");
     if (password === "sonicadvantage") {
       document.addEventListener("DOMContentLoaded", function() {
