@@ -36,17 +36,17 @@
     @media (max-width: 768px) {
       .hero h1 { font-size: 2rem; }
        /* Delete the .nav-links line, or replace with this */
-      .nav-links {
-          display: flex;
-          flex-direction: column;
-          gap: 12px;
-          width: 100%;
-          margin-top: 15px;
-      }
-      nav {
-          flex-direction: column;
-          align-items: flex-start;
-      }
+       .nav-links {
+           display: flex;
+           flex-direction: row; /* horizontal now */
+           gap: 20px;
+           flex-wrap: wrap; /* allows wrapping if screen is tiny */
+       }
+       nav {
+           flex-direction: row; /* keep logo + links on same line */
+           justify-content: space-between;
+           align-items: center;
+       }
     }
   </style> 
 </head>
